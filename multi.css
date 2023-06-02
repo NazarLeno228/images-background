@@ -28,4 +28,35 @@ margin-right: 10px;
     width: 25px;
     height: 25px;
     background-color: red;
+    background-image: url(icons/photo_5442926099496553245_m.jpg)
+}
+.list-item {
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
   }
+
+.list-item::before {
+    content: '';
+    display: block;
+
+   
+    height: 100px;
+
+    border: 1px solid red;
+    background-color: #ccc;
+
+    background-image: url(icons/photo_5442926099496553244_x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+    .icon-mobile::before{
+        background-image: url(icons/photo_5442926099496553245_m.jpg);
+    }
+    .icon-rocket{
+        background-image: url(icons/photo_5442926099496553245_m.jpg);
+    }
