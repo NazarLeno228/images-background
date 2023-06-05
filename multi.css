@@ -1,4 +1,4 @@
-.overlay{
+/* .overlay{
     outline: 1px solid black;
 
   max-width: 1200px;
@@ -54,9 +54,35 @@ margin-right: 10px;
     background-repeat: no-repeat;
     background-position: center;}
 
-    .icon-mobile::before{
-        background-image: url(icons/photo_5442926099496553245_m.jpg);
+    .icon-delivery::before{
+        background-image: url(icons/photo_5442926099496553244_x.jpg);
     }
-    .icon-rocket{
-        background-image: url(icons/photo_5442926099496553245_m.jpg);
+    .icon-rocket::before{
+        background-image: url(icons/photo_5442926099496553246_m.jpg);
+    }
+    .icon-rocket::after{
+        background-image: url(icons/photo_5442926099496553243_m.jpg);
+    } */
+
+    
+    .text{
+        width: 300px;
+    }
+    .text::selection{
+        background-color: teal;
+        color: brown;
+    }
+    .text::first-letter{
+        font-size: 48px;
+        color: yellowgreen;
+
+    }
+    .text::first-line{
+        background-color: aquamarine;
+    }
+    body{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 0.5em;
     }
